@@ -1,0 +1,13 @@
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-style {
+    border : 1px solid gray;
+    padding: 20px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+}
