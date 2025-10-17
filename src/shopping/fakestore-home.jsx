@@ -22,6 +22,9 @@ export function FakestoreHome(){
                         <li className="my-2 bg-dark text-white w-25 p-2" key={category}> <Link className="text-white text-decoration-none" to={`/products/${category}`}> {category.toUpperCase()} </Link> </li>
                     )
                 }
+                <li className="my-2 bg-dark text-white w-25 p-2"> 
+                    <Link className="text-white text-decoration-none" to="/search"> SEARCH </Link>
+                </li>
             </ol>
         </div>
     )
