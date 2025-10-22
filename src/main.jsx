@@ -30,10 +30,14 @@ import { SearchProducts } from './fakestore/search-products';
 import { LifeCycleDemo } from './components/life-cycle-demo/life-cycle-demo';
 import { TutorialIndex } from './video-tutorials/tutorial-index';
 import { FakestoreIndex } from './shopping/fakestore-index';
+import { CookiesProvider } from 'react-cookie';
+import { VideoLibraryIndex } from './video-library/video-library-index';
 
 
 createRoot(document.getElementById('root')).render(
   
-    <FakestoreIndex/>
+   <CookiesProvider>
+       <VideoLibraryIndex/>
+   </CookiesProvider>
   
 )

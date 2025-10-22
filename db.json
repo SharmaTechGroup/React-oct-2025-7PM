@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "java"
+    },
+    {
+      "category_id": 2,
+      "category_name": "react"
+    },
+    {
+      "category_id": 3,
+      "category_name": "aws"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "React JS - Tutorial",
+      "description": "React 18x Tutorial",
+      "url": "https://www.youtube.com/embed/tm7kVn8abSg",
+      "views": 100,
+      "likes": 30,
+      "dislikes": 0,
+      "category_id": 2,
+      "comments": "Thank you"
+    },
+    {
+      "title": "Java Strings By Mr. Hari",
+      "description": "Session-2",
+      "url": "https://www.youtube.com/embed/pp5zEjj5yvo",
+      "likes": 200,
+      "views": 350,
+      "dislikes": 0,
+      "comments": "Please upload more videos",
+      "category_id": "1",
+      "id": "831a"
+    }
+  ],
+  "admin": [
+    {
+      "admin_id": "john_admin",
+      "password": "john@11"
+    }
+  ],
+  "users": [
+    {
+      "id": "a76e",
+      "user_id": "kiran_123",
+      "user_name": "Kiran",
+      "password": "kiran@12",
+      "mobile": "+919876543211"
+    }
+  ]
+}

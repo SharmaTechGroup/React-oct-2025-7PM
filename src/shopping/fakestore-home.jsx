@@ -1,10 +1,12 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
+import { useCookies } from "react-cookie";
 import { Link } from "react-router-dom";
 
 export function FakestoreHome(){
 
     const [categories, setCategories] = useState([]);
+    
 
     useEffect(()=>{
         axios.get('https://fakestoreapi.com/products/categories')
